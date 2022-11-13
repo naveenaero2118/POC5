@@ -15,6 +15,6 @@ public class IndexController {
     public HashMap index() {
         logger.debug("request served");
 
-        return new HashMap<>("Hello Offers DRE") 
+        return new HashMap<>("Hello Offers DRE");
     }
 }
