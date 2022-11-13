@@ -12,11 +12,11 @@ public class IndexController {
     private Logger logger = LoggerFactory.getLogger(IndexController.class);
 
     @GetMapping("/")
-    public HashMap index() {
+    public HashMap index() {{
         logger.debug("request served");
 
         return new HashMap<>() {
             put("hello", "offers_dre");
-        };
+        }};
     }
 }
